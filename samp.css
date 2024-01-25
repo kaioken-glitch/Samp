@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Jost:wght@400;500&family=Lato&family=Noto+Sans&family=Orbitron:wght@600&family=Pacifico&family=Roboto+Condensed:wght@500&family=Roboto:wght@400;900&family=Rubik+Maps&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Jost', sans-serif;
+    width: 100%;
+    height: 440px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(./deer-8164879.jpg)
+}
+
+.sdf{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sdf h1{
+    color: aliceblue;
+}
+
+.sdf p{
+    color: aliceblue;
+    font-size: 16px;
+}
+
+.search{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    width: 500px;
+    height: 40px;
+    background-color: aliceblue;
+}
+
+input{
+    width: 450px;
+    height: 20px;
+    background-color: transparent;
+    font-family: 'Jost', sans-serif;
+    font-size: 16px;
+    border-radius: 30px;
+    outline: none;
+    text-indent: 10px;
+    border: none;
+}
+
+imput:focus{
+    outline: none;
+}
+
+.cr{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Jost', sans-serif;
+    width: 100%;
+    margin-top: 20px;
+}
+
+li{
+    margin: 10px;
+    list-style: none;
+    margin-right: 25px;
+}
+
+.xp{
+    font-size: 16px;
+    font-weight: bold;
+    color: aliceblue;
+}
+
+a{
+    color: #3a3a3a;
+    text-decoration: none;
+}
+
+i{
+    margin: 10px;
+    cursor: pointer;
+}
+
+.cr img{
+    cursor: pointer;
+    width: 150px;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: auto;
+}
+
+.prof{
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    margin: 10px;
+    background-image: url(./color-2174066_1920.png);
+    background-size: cover;
+    background-position: center;
+}
+
+img{
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+}
+
+.fn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 20px;
+    background-color: green;
+    margin: 10px;
+    transition: background-color 0.3s;
+}
+
+.fn:hover{
+    background-color: red;
+}
+
+.dr{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    margin-right: 5px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.dr:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+    border-bottom: 0 0 10px solid gray;
+    color: aliceblue;
+}
+
+svg{
+    margin: 10px;
+}
+
+.drp {
+    position: relative;
+    display: inline-block;
+  }
+
+  /* Style for the dropdown content */
+  .drp-content {
+    display: none;
+    color: aliceblue;
+    position: absolute;
+    z-index: 1;
+  }
+
+  /* Show the dropdown content when hovering over the dropdown container */
+  .drp:hover .drp-content {
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    justify-content: center;
+    width: 100px;
+    flex-direction: column;
+    background-color: aliceblue;
+  }
+
+  .drp a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin: 3px;
+    width: 90%;
+  }
+
+  .drp-content a:hover{
+    color: aliceblue;
+    background-color: rgba(51, 51, 51, 0.5);
+  }
+
+.dropdown a {
+    display: flex;
+    text-decoration: none;
+    background-color: aliceblue;
+    color: #333;
+  }
+
+  /* Style the dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    min-width: 160px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+
+  /* Style the individual dropdown items */
+  .dropdown-content a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+  }
+
+  .dropdown-content a:hover{
+    background-color: rgba(51, 51, 51, 0.5);
+    color: aliceblue;
+  }
+
+  .nav{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1f1f1;
+  }
+
+  ul{
+    width: 100%;
+    height: inherit;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Jost', sans-serif;
+  }
+
+  li{
+    list-style: none;
+    margin-left: auto;
+    margin-right: 0;
+  }
+
+  .li{
+    list-style: none;
+    margin: 15px;
+  }
+
+  .li:hover{
+    border-bottom: 3px solid wheat;
+  }
+
+  .active{
+    border-bottom: 3px solid  #3a3a3a;
+    font-weight: bolder;
+  }
+  /* Show the dropdown content when the link is hovered */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+.samps{
+    width: 100%;
+    display: flex;
+    height: 400px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #f1f1f1;
+}
+
+.ps{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 95%;
+    height: 130px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+    margin: 10px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.ps i{
+  margin: 10px;
+}
+
+.ic{
+  width: 40px;
+  height: 40px;
+  margin: 10px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(./background-1814372.jpg);
+  box-shadow: 0 0 3px rgba(51, 51, 51, 0.5);
+  border-radius: 40px;
+}
+
+audio {
+  width: 80%;
+}
+
+audio::-webkit-media-controls-panel {
+  background-color: #e0e0e0;
+  border-radius: 5px;
+}
+
+.ln{
+    width: 80%;
+    height: 90%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+  
+::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+}
+  
+::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 6px;
+}
+  
+::-webkit-scrollbar-thumb:hover {
+    background-color: #3a3a3a;
+}
+  
